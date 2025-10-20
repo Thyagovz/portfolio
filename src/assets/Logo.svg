@@ -1,0 +1,21 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Letter T -->
+  <rect x="60" y="40" width="120" height="25" fill="white" rx="6" filter="url(#glow)"/>
+  <rect x="107.5" y="65" width="25" height="95" fill="white" rx="6" filter="url(#glow)"/>
+  
+  <!-- Letter E (closer to T) -->
+  <rect x="200" y="40" width="25" height="120" fill="white" rx="6" filter="url(#glow)"/>
+  <rect x="200" y="40" width="90" height="25" fill="white" rx="6" filter="url(#glow)"/>
+  <rect x="200" y="87.5" width="70" height="25" fill="white" rx="6" filter="url(#glow)"/>
+  <rect x="200" y="135" width="90" height="25" fill="white" rx="6" filter="url(#glow)"/>
+</svg>
