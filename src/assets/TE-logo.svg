@@ -1,0 +1,29 @@
+<svg width="500" height="240" viewBox="0 0 500 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Glow suave -->
+    <filter id="glowWhite" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Letter T -->
+  <path d="M 50 40 L 180 40 L 180 70 L 130 70 L 130 200 L 100 200 L 100 70 L 50 70 Z"
+        fill="#ffffff"
+        filter="url(#glowWhite)"/>
+  <polygon points="185,35 190,40 185,45" fill="#ffffff" opacity="0.9"/>
+
+  <!-- Letter E -->
+  <path d="M 240 40 L 370 40 L 365 45 L 365 70 L 270 70 L 270 105 L 350 105 L 350 135 L 270 135 L 270 170 L 365 170 L 370 175 L 370 200 L 240 200 Z"
+        fill="#ffffff"
+        filter="url(#glowWhite)"/>
+</svg>
+
+
+
+
+
+

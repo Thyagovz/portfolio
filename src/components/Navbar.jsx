@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import logo from "../assets/logo.svg";
+import logo from "../assets/TE-logo.svg";
 import { FaTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
