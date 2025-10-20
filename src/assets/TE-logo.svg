@@ -20,7 +20,13 @@
   <path d="M 240 40 L 370 40 L 365 45 L 365 70 L 270 70 L 270 105 L 350 105 L 350 135 L 270 135 L 270 170 L 365 170 L 370 175 L 370 200 L 240 200 Z"
         fill="#ffffff"
         filter="url(#glowWhite)"/>
+
+  <!-- Traço horizontal centralizado -->
+  <path d="M 180 112 Q 180 107 185 107 L 268 107 Q 273 107 273 112 L 273 118 Q 273 123 268 123 L 185 123 Q 180 123 180 118 Z"
+        fill="#ffffff"
+        filter="url(#glowWhite)"/>
 </svg>
+
 
 
 
